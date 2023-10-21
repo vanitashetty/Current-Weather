@@ -1,5 +1,5 @@
 # Current Weather
-Current Weather is a user-friendly web application designed to provide real-time weather information from any location across the globe. Our application offers a seamless experience with three dedicated pages:
+Current Weather is a user-friendly web application(frontend) designed to provide real-time weather information from any location across the globe. Our application offers a seamless experience with three dedicated pages:
 
 Home Page: This is the heart of the application, where users can effortlessly check the current weather conditions in any city or country worldwide.
 
