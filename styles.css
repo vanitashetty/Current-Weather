@@ -14,18 +14,24 @@ body {
 }
 
 @keyframes scrollBackground {
-    0%, 100% {
+
+    0%,
+    100% {
         background-image: url('ivan-stanley-YV0VAKVwFxA-unsplash.jpg');
     }
+
     20% {
         background-image: url('neda-astani-KWTkd7mHqKE-unsplash.jpg');
     }
+
     40% {
         background-image: url('noaa-jU-JOEZ2saQ-unsplash.jpg');
     }
+
     60% {
         background-image: url('noaa-kcvlb727mn8-unsplash.jpg');
     }
+
     80% {
         background-image: url('noaa-NHGnSc5YQOg-unsplash.jpg');
     }
@@ -72,7 +78,8 @@ nav ul li a:hover {
     text-align: center;
     padding: 20px;
     width: 400px;
-    margin: 120px auto; /* Adjust margin to push content down */
+    margin: 120px auto;
+    /* Adjust margin to push content down */
     position: relative;
     z-index: 1;
 }
@@ -106,7 +113,8 @@ nav ul li a:hover {
 
 .contact textarea {
     width: 95%;
-    height: 100px; /* Adjust the height as needed */
+    height: 100px;
+    /* Adjust the height as needed */
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -192,10 +200,11 @@ nav ul li a:hover {
 .about-bg {
     background: url('dave-hoefler-od287vQyufw-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh; /* Adjust the height as needed */
+    height: 100vh;
+    /* Adjust the height as needed */
     position: relative;
     overflow: hidden;
-    opacity: 0.9; 
+    opacity: 0.9;
 }
 
 .about-content {
@@ -221,4 +230,44 @@ nav ul li a:hover {
 .about-content p {
     font-size: 20px;
     color: #eee;
+}
+
+
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    /* Adjust the opacity and background color as needed */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    /* Ensure the footer overlays the content */
+    transform: translateY(35px);
+    /* Adjust the amount of vertical displacement */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+footer:hover {
+    transform: translateY(0);
+    /* Return to the original position on hover */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    /* Add spacing between links */
+}
+
+.footer-links a:hover {
+    color: #5162e1;
+}
+
+footer p {
+    margin: 10px 0;
+    /* Add some spacing below the links */
+    font-size: 17px;
 }
