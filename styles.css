@@ -189,25 +189,36 @@ nav ul li a:hover {
 }
 
 /* About Us Page Styles */
-.about {
-    background: rgba(255, 255, 255, 0.8);
+.about-bg {
+    background: url('dave-hoefler-od287vQyufw-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden;
+    opacity: 0.9; 
+}
+
+.about-content {
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
-    width: 400px;
-    margin: 100px auto; /* Center vertically on the page */
+    width: 60%;
+    margin: 0 auto;
     position: relative;
     z-index: 1;
+    top: 30%;
+    transform: translateY(-50%);
 }
 
-.about h1 {
-    font-size: 30px; /* Increase the font size for a bold title */
-    color: #333;
+.about-content h1 {
+    font-size: 34px;
+    color: #fff;
     margin-bottom: 20px;
 }
 
-.about p {
-    font-size: 18px; /* Larger font for better readability */
-    color: #444; /* Slightly different text color */
+.about-content p {
+    font-size: 20px;
+    color: #eee;
 }
